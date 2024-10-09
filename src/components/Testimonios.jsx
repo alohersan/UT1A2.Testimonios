@@ -13,7 +13,7 @@ const Testimonio = ({ username, city, profession, opinion, imageUrl, description
     };
 
     return (
-        <Card style={{ maxWidth: 600, margin: '1em auto', boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)' }}>
+        <Card style={{ maxWidth: 600, margin: '1em auto' }}>
             {/* Imagen */}
             <CardMedia
                 component="img"
